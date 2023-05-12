@@ -19,7 +19,7 @@
     ],
     "homepage": "https://github.com/spaceemotion/php-coding-standard",
     "require": {
-        "php": ">=7.1",
+        "php": ">=8.1",
         "ext-SimpleXML": "*",
         "ext-json": "*",
         "composer/xdebug-handler": "^1.0 || ^2.0 || ^3.0",
@@ -28,20 +28,20 @@
     },
     "require-dev": {
         "brainmaestro/composer-git-hooks": "^2.8",
-        "ergebnis/composer-normalize": "^2.4",
+        "ergebnis/composer-normalize": "^2.31",
         "phan/phan": "^3.0 || ^4.0 || ^5.0",
-        "php-parallel-lint/php-parallel-lint": "^1.2",
-        "phpmd/phpmd": "^2.8",
+        "php-parallel-lint/php-parallel-lint": "^1.3",
+        "phpmd/phpmd": "^2.13",
         "phpstan/phpstan": "^1",
         "phpstan/phpstan-deprecation-rules": "^1.1",
         "phpstan/phpstan-strict-rules": "^1.5",
-        "phpunit/phpunit": "^9.5",
-        "psalm/plugin-phpunit": "^0.15.0",
-        "qossmic/deptrac-shim": "^0.19.0",
+        "phpunit/phpunit": "^10.1.0",
+        "psalm/plugin-phpunit": "^0.18.0",
+        "qossmic/deptrac-shim": "^1.0.0",
         "rector/rector": "^0.12",
-        "squizlabs/php_codesniffer": "^3.5",
-        "symplify/easy-coding-standard": "^10",
-        "vimeo/psalm": "^4.3"
+        "squizlabs/php_codesniffer": "^3.7",
+        "symplify/easy-coding-standard": "^11.3",
+        "vimeo/psalm": "^5.11"
     },
     "suggest": {
         "ergebnis/composer-normalize": "Normalizes composer.json files",
